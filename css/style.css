@@ -1,8 +1,10 @@
 *{
     box-sizing: border-box;
 }
+
 body {
     background: bisque;
+    font-size: 20px; /* Tamaño de fuente deseado para todo el contenido */
 }
 section.acerca {
     background: bisque;
@@ -16,6 +18,20 @@ nav {
     left: 0; 
     font-size: 20px;
 }
+div.estudiante {
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+}
+
+
+
+.yop {
+    margin-left: 75%;
+    border-radius: 50%; /* Hace que la imagen se convierta en un círculo */
+    width: 350px; /* Tamaño deseado para la imagen */
+    height: auto; /* Tamaño deseado para la imagen */
+    }
+    
 
 nav ul {
     display: flex;
@@ -70,3 +86,6 @@ section.juegos ul{
 section.juego h2{
     position: inherit;
 }
+
+
+  
