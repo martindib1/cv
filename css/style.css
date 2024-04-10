@@ -19,7 +19,6 @@ nav {
     font-size: 20px;
 }
 div.estudiante {
-    align-items: center; /* Centra verticalmente */
     justify-content: center; /* Centra horizontalmente */
 }
 
